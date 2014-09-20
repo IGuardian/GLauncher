@@ -1,4 +1,3 @@
 # GLauncher: "AUTHORS" file.
 
-# iguardian http://www.iguardians.co.uk
-*(Web Content)
+iguardian http://www.iguardians.co.uk
