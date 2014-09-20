@@ -1,0 +1,103 @@
+/* 
+#  __                        
+# /__ |  _.   ._  _ |_  _ ._ 
+# \_| |_(_||_|| |(_ | |(/_|  
+#
+# GLauncher: "GLauncher.css" file. (Last Update in Rev. 15)
+*/
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FF0000;
+}
+a:active {
+	color: #FFFFFF;
+}
+
+/* Styles */
+.ContentTitle {
+	font-size: 14px;
+    color: #00FF00;
+}
+ul.ContentLinks {
+    font-size: 12px;
+    list-style-image : url("../images/bulletpoint.gif");
+    color: #FFFFFF;
+}
+.ContentBody {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+/* Build Page */
+#MainContainer {
+    width: 640px;
+	height: 402px;
+	background: url(../images/glauncher_background.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+#Header {
+    width: 620px;
+	height: 30px;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	border-bottom:  5px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	color: #990000;
+}
+#Content {
+    width: 440px;
+	height: 267px;
+	text-align: left;
+	padding-left: 195px;
+	padding-right: 5px;
+	padding-top: 81px;
+	border-bottom:  0px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#Footer {
+	width: 620px;
+	height: 8px;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	border-bottom:  1px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	font-style: italic;
+    color: #000000;
+}
+
+/* Extra bit for locking "index.html" files */
+#LockingHolder {
+    width: 500px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 100px;
+}
