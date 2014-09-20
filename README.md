@@ -12,4 +12,4 @@ The launcher loads this page, so once the launcher is deployed you can change th
 
 ## Requirements
 
-*To host the launcher page you will need a webserver, we recommend  Apache or Nginx for this. (http://www.apache.org/ http://nginx.org/)
+To host the launcher page you will need a webserver, we recommend  Apache or Nginx for this. (http://www.apache.org/ http://nginx.org/)
