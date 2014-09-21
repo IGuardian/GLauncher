@@ -6,7 +6,7 @@ This project was moved over from SourceForge, in it's current state it is only t
 Project requires much work, what currently exists is fairly dated now.
 
 ## Instructions
-Edit the files inside "public_html" as desired and upload it to a webserver, a good location is on a subdomain, for example "http://launcher.yourwebsite.com"
+Edit the files inside "upload" as desired and upload it to a webserver, a good location is on a subdomain, for example "http://launcher.yourwebsite.com"
 
 The launcher loads this page, so once the launcher is deployed you can change the contents at will by editing the webpage files.
 
