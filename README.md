@@ -1,5 +1,5 @@
 # GLauncher project.
-## GLauncher: "README.md" file. (Project Revision 19)
+## GLauncher: "README.md" file.
 
 This project was moved over from SourceForge, in it's current state it is only the webpage content that would load inside a "Game Launcher" program.
 
