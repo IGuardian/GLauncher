@@ -3,8 +3,6 @@
 
 This project was moved over from SourceForge, in it's current state it is only the webpage content that would load inside a "Game Launcher" program.
 
-Project requires much work, what currently exists is fairly dated now.
-
 ## Instructions
 Edit the files inside "upload" as desired and upload it to a webserver, a good location is on a subdomain, for example "http://launcher.yourwebsite.com"
 
