@@ -5,15 +5,15 @@
 #
 # GLauncher: "GLauncher.css" file.
 */
-body,td,th {
-	color: #FFFFFF;
-}
+
 body {
 	background-color: #000000;
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+        font: Arial;
+        color: #FFFFFF;
 }
 a:link {
 	color: #FFFFFF;
@@ -29,75 +29,65 @@ a:active {
 }
 
 /* Styles */
-.ContentTitle {
-	font-size: 14px;
-    color: #00FF00;
+h1 {
+    font-size: 24px;
 }
-ul.ContentLinks {
-    font-size: 12px;
-    list-style-image : url("../images/bulletpoint.gif");
-    color: #FFFFFF;
-}
-.ContentBody {
-    font-size: 12px;
-    color: #FFFFFF;
+
+ul {
+    font-size: 16px;
+    list-style-image : url("../images/Bullet_Point.png");
 }
 
 /* Build Page */
 #MainContainer {
-    width: 640px;
-	height: 402px;
-	background: url(../images/glauncher_background.jpg);
-	background-repeat: no-repeat;
-	background-position: top left;
+    width: 700px;
+    height: 500px;
+    background: url(../images/background_stars.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
 #Header {
-    width: 620px;
-	height: 30px;
-	text-align: right;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 6px;
-	border-bottom:  5px;
-	font: Arial, Helvetica, sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	font-style: italic;
-	color: #990000;
+    width: 80%;
+    height: 30px;
+    background: url(../images/background_header.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    color: #FFFFFF;
 }
-#Content {
-    width: 440px;
-	height: 267px;
-	text-align: left;
-	padding-left: 195px;
-	padding-right: 5px;
-	padding-top: 81px;
-	border-bottom:  0px;
-	font: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #FFFFFF;
-}
-#Footer {
-	width: 620px;
-	height: 8px;
-	text-align: right;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 4px;
-	border-bottom:  1px;
-	font: Arial, Helvetica, sans-serif;
-	font-size: 9px;
-	font-weight: bold;
-	font-style: italic;
-    color: #000000;
+#ContentHolder {
+    width: 80%;
+    height: 72%;
+    background: url(../images/Background_White_Opacity_60.png);
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    border-bottom: 10px;
+    font: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
-/* Extra bit for locking "index.html" files */
-#LockingHolder {
-    width: 500px;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 100px;
+#ContentBox {
+    font-size: 16px;
+    overflow: auto;
+    max-height: 195px;
+    max-width: 100%;
+    word-wrap: break-word;
 }
